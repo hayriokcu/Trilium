@@ -64,3 +64,8 @@ Sorting is done by comparing note properties or specific labels on child notes. 
 4.  **Alphabetical Sorting**: Used as a last resort when other criteria result in equality.
 
 All comparisons are made string-wise (e.g., "1" \< "2" or "2020-10-10" < "2021-01-15", but also "2" \> "10").
+
+## Applying sorting attributes recursively for the child notes
+The sorting attributes can be applied by including the child (nested) notes by enabling `Inheritable` option. This option allows to apply the rule for the notes locate under the parent note.
+
+<img width="550" height="245" alt="image" src="https://github.com/user-attachments/assets/556b9583-7ef4-4d2d-8a19-a9c6ff18b3fe" />
